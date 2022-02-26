@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header id="registrationheader"><strong>New User Registration</strong> </header>
+        
+        <section> <h1>This is the User registration page, enter your information below </h1 ></section>
+        <form>
+            <fieldset>
+                <legend>User Registration</legend>
+                <label for="uname">User Name</label>
+                <input type="text" name="uname" required placeholder="User Name" />
+                
+                <label for="email">Email Address</label>
+                <input type="email" name="email" required placeholder="Email" />
+                <br/>
+                <label for="password">Password</label>
+                <input type="password" name="password" required placeholder="Password" />
+                <br/>
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" name="cpassword" required placeholder="Confirm Password" />
+                <br/>
+                <label for="age">Confirm You are over 13 years old</label>
+                <input type="checkbox" id="age" name="age" required />  
+                <br/>
+                <a href="" >Terms of Service and Privacy Notice</a>
+                <br/>
+                <label for="tos">Accept terms of service and privacy agreement</label>
+                <input type="checkbox" id="tos" name="tos" required />  
+                
+            </fieldset>
+            <input type="submit" value="Register" >
+        </form>
+    </body>
+</html>
