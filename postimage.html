@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+
+
+
+-->
+<html>
+    <head>
+        <title>Post Image</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <form> 
+        <header id="postimageheader"><strong>Make A Post </strong></header>
+        <section> <h1>This page facilitates the Posting of Images </h1>  </section>
+        <br/>
+        <p>Please include a title, description, and image compliant with the terms of service</p>
+        <fieldset> 
+            <legend>Post Image</legend>
+            <label for="ptitle">Post Title :</label>
+            <input type="text" name="ptitle" required placeholder="Title">
+            <br/>
+            <label for="desc">Post Description :</label>
+            <br/>
+            <textarea id="postdescription" name="description" rows="10" cols="25"></textarea>
+            <br/>
+            <label for="fupload">Image Upload</label>
+            <br/>
+            <input type="file" accept="image/*" />
+            <br/>
+            <a href="" >Terms of Service and Privacy Notice for Uploading Images</a>
+            <br/>
+            <input type="checkbox" id="tos" name="tos" required />  
+        </fieldset>
+        <input type="submit" value="Upload">
+    </form>
+    <body>
+    </body>
+</html>
